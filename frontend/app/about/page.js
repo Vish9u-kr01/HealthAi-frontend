@@ -34,7 +34,7 @@ const AboutPage = () => {
           <div>
             <h2 className="text-2xl font-semibold text-indigo-600 mb-2">Join Us on the Journey</h2>
             <p>
-              Whether you're a healthcare provider, researcher, patient, or innovator — Health AI welcomes you to be a part of this transformative journey. Together, we can shape a healthier, smarter future.
+              Whether you are a healthcare provider, researcher, patient, or innovator — Health AI welcomes you to be a part of this transformative journey. Together, we can shape a healthier, smarter future.
             </p>
           </div>
         </div>
