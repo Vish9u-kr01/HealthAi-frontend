@@ -7,7 +7,7 @@ const AboutPage = () => {
     <section className="text-gray-700 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl   mb-4  bg-gradient-to-r from-[#4729FF] via-[#A042FF] to-[#FF4FB6] bg-clip-text text-transparent"> span Welcome to Health AI</h1>
+          <h1 className="text-4xl   mb-4  bg-gradient-to-r from-[#4729FF] via-[#A042FF] to-[#FF4FB6] bg-clip-text text-transparent"> Welcome to Health AI</h1>
           <p className="text-lg leading-relaxed text-white">
             Health AI is an innovative platform harnessing the power of artificial intelligence to revolutionize the healthcare experience. Our mission is to make healthcare smarter, more accessible, and personalized through advanced data-driven technologies.
           </p>
