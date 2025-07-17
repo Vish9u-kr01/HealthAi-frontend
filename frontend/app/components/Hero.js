@@ -30,7 +30,7 @@ const Hero = () => {
     WebkitTextFillColor: 'transparent',
     fontSize: '1rem'
           }} >
-            The Health AI project harnesses the power of artificial intelligence to transform the way we approach healthcare. By integrating machine learning, data analytics, and predictive modeling, our system aims to improve diagnostics, personalize treatment plans, and enhance patient outcomes. Whether it's early disease detection or real-time health monitoring, Health AI empowers medical professionals with deeper insights and faster decision-making. Our goal is to create smarter, more accessible, and efficient healthcare solutions for everyone.
+            The Health AI project harnesses the power of artificial intelligence to transform the way we approach healthcare. By integrating machine learning, data analytics, and predictive modeling, our system aims to improve diagnostics, personalize treatment plans, and enhance patient outcomes. Whether its early disease detection or real-time health monitoring, Health AI empowers medical professionals with deeper insights and faster decision-making. Our goal is to create smarter, more accessible, and efficient healthcare solutions for everyone.
           </p>
 
           <div className=" ml-15 relative group">
