@@ -13,7 +13,7 @@ const LoginForm = () => {
 
  const onSubmit = async (data) => {
   try {
-    const res = await fetch('https://health-ai-backend-weld.vercel.app/login', {
+    const res = await fetch('https://healthai-backend-production-53bc.up.railway.app/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
