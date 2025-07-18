@@ -15,7 +15,7 @@ const SignupForm = () => {
 
   const onSubmit = async (data) => {
     try {
-      await axios.post('http://localhost:8081/signup', data);
+      await axios.post('https://health-ai-backend-weld.vercel.app/signup', data);
       alert('Signup successful');
       router.push('/login');
     } catch (error) {
