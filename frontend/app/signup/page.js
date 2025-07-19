@@ -15,7 +15,7 @@ const SignupForm = () => {
 
   const onSubmit = async (data) => {
     try {
-      await axios.post('https://healthai-backend-production-53bc.up.railway.app/signup', data);
+      await axios.post('https://healthai-backend-3.onrender.com/signup', data);
       alert('Signup successful');
       router.push('/login');
     } catch (error) {
