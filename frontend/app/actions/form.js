@@ -14,7 +14,7 @@ export const submitAction = async (formData) => {
   };
 
   try {
-    const res = await fetch("http://localhost:3000/feedback", {
+    const res = await fetch("https://healthai-backend-4.onrender.com/feedback", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -32,6 +32,7 @@ export const submitAction = async (formData) => {
     return { success: false, error: err.message };
   }
 };
+
 
 
   
