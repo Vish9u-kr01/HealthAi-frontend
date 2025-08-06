@@ -15,7 +15,7 @@ const SignupForm = () => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await axios.post('http://localhost:3000/signup', {
+      const response = await axios.post('https://healthai-backend-4.onrender.com/signup', {
         username: data.username,
         email: data.email,
         password: data.password,
@@ -343,4 +343,5 @@ export default SignupForm;
 // };
 
 // export default SignupForm;
+
 
