@@ -113,7 +113,6 @@ const LoginForm = () => {
 
         .signup-form input {
            color: white;
-          background-color: #333;
           width: 100%;
           padding: 3px;
           border-radius: 4px;
@@ -311,6 +310,7 @@ export default LoginForm;
 // };
 
 // export default SignupForm;
+
 
 
 
