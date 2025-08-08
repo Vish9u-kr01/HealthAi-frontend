@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <input className="input bg-black text-white" name="name" placeholder="Full Name" onChange={handleChange} required />
-        <input className="input" name="age" type="number" placeholder="Age" onChange={handleChange} required />
+        <input className="input bg-black text-white" name="age" type="number" placeholder="Age" onChange={handleChange} required />
         <select className="input bg-black text-white" name="gender" onChange={handleChange} required>
           <option value="" >Gender</option>
           <option>Male</option>
@@ -85,15 +85,15 @@ const handleSubmit = async (e) => {
           <option>Non-binary</option>
           <option>Prefer not to say</option>
         </select>
-        <input className="input" name="location" placeholder="Location (optional)" onChange={handleChange} />
+        <input className="input bg-black text-white" name="location" placeholder="Location (optional)" onChange={handleChange} />
       </div>
 
-      <textarea className="input" name="primarySymptom" placeholder="Primary Symptom" onChange={handleChange} required />
-      <textarea className="input" name="additionalSymptoms" placeholder="Additional Symptoms (comma separated)" onChange={handleChange}  required/>
+      <textarea className="input bg-black text-white" name="primarySymptom" placeholder="Primary Symptom" onChange={handleChange} required />
+      <textarea className="input bg-black text-white" name="additionalSymptoms" placeholder="Additional Symptoms (comma separated)" onChange={handleChange}  required/>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <input className="input" type="date" name="onsetDate" onChange={handleChange} />
-        <input className="input" name="duration" placeholder="Duration (e.g., 3 days)" onChange={handleChange} />
+        <input className="input bg-black text-white" type="date" name="onsetDate" onChange={handleChange} />
+        <input className="input bg-black text-white" name="duration" placeholder="Duration (e.g., 3 days)" onChange={handleChange} />
         <select className="input bg-black text-white" name="severity" onChange={handleChange} required>
           <option value="">Severity</option>
           <option>Mild</option>
@@ -102,7 +102,7 @@ const handleSubmit = async (e) => {
         </select>
       </div>
 
-      <textarea className="input w-70" name="trigger" placeholder="Any known triggers(like foods,lack of sleep or stress,allergens etc)" onChange={handleChange} />
+      <textarea className="input w-70 bg-black text-white" name="trigger" placeholder="Any known triggers(like foods,lack of sleep or stress,allergens etc)" onChange={handleChange} />
       <select className="input bg-black text-white" name="experiencedBefore" onChange={handleChange}>
         <option value="">Experienced before?</option>
         <option>Yes</option>
@@ -120,17 +120,17 @@ const handleSubmit = async (e) => {
           <option>Yes</option>
           <option>No</option>
         </select>
-        <input className="input" name="temperature" placeholder="Temperature (if known)" onChange={handleChange} required />
+        <input className="input bg-black text-white" name="temperature" placeholder="Temperature (if known)" onChange={handleChange} required />
       </div>
 
-      <label className="block font-medium mt-2">Pain Scale (0-10): {formData.painScale}</label>
-      <input type="range" name="painScale" min="0" max="10" value={formData.painScale} onChange={handleChange} className="w-full" />
+      <label className="block font-medium mt-2 bg-black text-white">Pain Scale (0-10): {formData.painScale}</label>
+      <input type="range" name="painScale" min="0" max="10" value={formData.painScale} onChange={handleChange} className="w-full bg-black text-white" />
 
-      <input className="input" name="affectedArea" placeholder="Affected Body Area(s)" onChange={handleChange} />
+      <input className="input bg-black text-white" name="affectedArea" placeholder="Affected Body Area(s)" onChange={handleChange} />
 
-      <textarea className="input w-70" name="chronicConditions" placeholder="Chronic Conditions (like asthma,diabetes,heart disease etc)" onChange={handleChange} />
-      <textarea className="input" name="medications" placeholder="Current Medications (if any)" onChange={handleChange} />
-      <textarea className="input" name="allergies" placeholder="Allergies (if any)" onChange={handleChange} />
+      <textarea className="input w-70 bg-black text-white" name="chronicConditions" placeholder="Chronic Conditions (like asthma,diabetes,heart disease etc)" onChange={handleChange} />
+      <textarea className="input bg-black text-white" name="medications" placeholder="Current Medications (if any)" onChange={handleChange} />
+      <textarea className="input bg-black text-white" name="allergies" placeholder="Allergies (if any)" onChange={handleChange} />
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <select className="input bg-black text-white" name="travel" onChange={handleChange}>
@@ -163,10 +163,10 @@ const handleSubmit = async (e) => {
           <option>Moderate</option>
           <option>High</option>
         </select>
-        <textarea className="input" name="dietChange" placeholder="Recent Diet Changes" onChange={handleChange} />
+        <textarea className="input bg-black text-white" name="dietChange" placeholder="Recent Diet Changes" onChange={handleChange} />
       </div>
 
-      <textarea className="input" name="substanceUse" placeholder="Substance Use (e.g., alcohol, smoking)" onChange={handleChange} />
+      <textarea className="input bg-black text-white" name="substanceUse" placeholder="Substance Use (e.g., alcohol, smoking)" onChange={handleChange} />
 
       <button type="submit" className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 w-full">
         Submit
@@ -176,4 +176,5 @@ const handleSubmit = async (e) => {
 };
 
 export default SymptomForm;
+
 
