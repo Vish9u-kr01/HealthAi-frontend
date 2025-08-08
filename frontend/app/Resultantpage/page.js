@@ -100,7 +100,7 @@ const Resultantpage = () => {
 
   return (
     <div className="max-w-3xl mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-4">🧠 AI Diagnosis Result</h1>
+      <h1 className="text-2xl font-bold mb-4 text-white">🧠 AI Diagnosis Result</h1>
 
       <div className="bg-black text-white p-4 border border-gray-300 rounded shadow space-y-4">
         <p><strong>Name:</strong> {patientInfo.name}</p>
@@ -126,6 +126,7 @@ const Resultantpage = () => {
 };
 
 export default Resultantpage;
+
 
 
 
