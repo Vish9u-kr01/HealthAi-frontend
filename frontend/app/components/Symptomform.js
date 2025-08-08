@@ -92,7 +92,7 @@ const handleSubmit = async (e) => {
       <textarea className="input bg-black text-white" name="additionalSymptoms" placeholder="Additional Symptoms (comma separated)" onChange={handleChange}  required/>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <input className="input bg-black text-white" type="date" name="onsetDate" onChange={handleChange} />
+        <input className="input bg-black text-white" type="date" placeholder="Date" name="onsetDate" onChange={handleChange} />
         <input className="input bg-black text-white" name="duration" placeholder="Duration (e.g., 3 days)" onChange={handleChange} />
         <select className="input bg-black text-white" name="severity" onChange={handleChange} required>
           <option value="">Severity</option>
@@ -176,6 +176,7 @@ const handleSubmit = async (e) => {
 };
 
 export default SymptomForm;
+
 
 
 
