@@ -73,7 +73,7 @@ const handleSubmit = async (e) => {
 
   return (
     <form onSubmit={handleSubmit} className="max-w-4xl mx-auto p-6 bg-black border border-white rounded-2xl shadow md space-y-6">
-      <h2 className="text-2xl font-bold text-center">🩺 Symptom Intake Form</h2>
+      <h2 className="text-2xl font-bold text-center text-white">🩺 Symptom Intake Form</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <input className="input bg-black text-white" name="name" placeholder="Full Name" onChange={handleChange} required />
@@ -176,5 +176,6 @@ const handleSubmit = async (e) => {
 };
 
 export default SymptomForm;
+
 
 
